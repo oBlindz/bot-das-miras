@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "bot-das-miras",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.mjs",
+    "watch": "node --watch index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oBlindz/bot-das-miras.git"
+  },
+  "keywords": ["BOT", "Discord", "Miras", "Games"],
+  "author": "oBlindz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oBlindz/bot-das-miras/issues"
+  },
+  "homepage": "https://github.com/oBlindz/bot-das-miras#readme",
+  "description": ""
+}
