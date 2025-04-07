@@ -1,20 +1,27 @@
 {
   "dependencies": {
-    "express": "^5.1.0"
+    "@tailwindcss/cli": "^4.1.3",
+    "express": "^5.1.0",
+    "tailwindcss": "^4.1.3"
   },
   "name": "bot-das-miras",
   "version": "1.0.0",
   "main": "index.mjs",
-  "devDependencies": {},
   "scripts": {
     "start": "node index.mjs",
-    "watch": "node --watch index.mjs"
+    "watch": "node --watch index.mjs",
+    "build-css": "tailwindcss build src/styles.css -o public/syles.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oBlindz/bot-das-miras.git"
   },
-  "keywords": ["BOT", "Discord", "Miras", "Games"],
+  "keywords": [
+    "BOT",
+    "Discord",
+    "Miras",
+    "Games"
+  ],
   "author": "oBlindz",
   "license": "MIT",
   "bugs": {

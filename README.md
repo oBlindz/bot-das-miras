@@ -17,14 +17,15 @@ A API do "Bot Das Miras" têm o propósito de servir miras para os usuários, se
 ## Desenvolvimento:
 - Linguagem: JavaScript
 - Type: Module
+- Estilo: Tailwindcss
 
 ## Passos de desenvolvimento: 
-[   ] Criar os endpoints necessários\
-[   ] Criar o formulário de registro para cada jogo\
-[   ] Conectar ao mongo DB\
-[   ] Salvar / Retornar miras\
-[   ] Front End\
-[   ] Postar no linkedIn e GitHub
+[ ✅ ] Criar os endpoints necessários\
+[    ] Criar o formulário de registro para cada jogo\
+[    ] Conectar ao mongo DB\
+[    ] Salvar / Retornar miras\
+[    ] Front End\
+[ ✅ ] Postar no linkedIn e GitHub
 
 ## Licensa: 
 Esse é um projeto "open source", isso quer dizer que você pode implementar features e fazer seu PR ou simplesmente utilizar esse projeto para estudos, treinos ou criacão de produtos próprios!
