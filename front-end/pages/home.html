@@ -6,7 +6,32 @@
     <link href="./output.css" rel="stylesheet">
     <title>Home page</title>
   </head>
-  <body>
-    <h2 class="underline">Bot Das Miras (API)</h2>
+  <body class="bg-mainBlue py-8">
+    <header class="flex flex-col items-center px-2 md:px-0">
+      <h2 class="text-white text-xl text-center md:text-4xl font-bold">Bem-Vindo ao Bot Das Miras (API)</h2>
+      <p class="text-white text-xs text-center font-light">Esta API têm o propósito de servir miras para diversos jogos de FPS<br>criando um ambiente dinâmico e divertido para os usuários</p>
+    </header>
+    <main class="w-full px-5 md:px-10 py-10 flex flex-col gap-4"> 
+      <div class="bg-secondaryBlue p-4 flex gap-6 rounded-sm justify-start items-center"><!--card here-->
+        <a href="/miraaleatoria" class="bg-secondaryGreen text-mainGreen py-4 px-8 rounded">GET</a>
+        <p class="text-white text-sm font-bold">/miraaleatoria</p>
+      </div>
+      <div class="bg-secondaryBlue p-4 flex gap-6 rounded-sm justify-start items-center"><!--card here-->
+        <a href="/mirapro" class="bg-secondaryGreen text-mainGreen py-4 px-8 rounded">GET</a>
+        <p class="text-white text-sm font-bold">/mirapro</p>
+      </div>
+      <div class="bg-secondaryBlue p-4 flex gap-6 rounded-sm justify-start items-center"><!--card here-->
+        <a href="/mirameme" class="bg-secondaryGreen text-mainGreen py-4 px-8 rounded">GET</a>
+        <p class="text-white text-sm font-bold">/mirameme</p>
+      </div>
+      <div class="bg-secondaryBlue p-4 flex gap-6 rounded-sm justify-start items-center"><!--card here-->
+        <a href="/addmira" class="bg-secondaryYellow text-mainYellow py-4 px-8 rounded">PUSH</a>
+        <p class="text-white text-sm font-bold">/addmira</p>
+      </div>
+      <div class="bg-secondaryBlue p-4 flex gap-6 rounded-sm justify-start items-center"><!--card here-->
+        <a href="/removermira" class="bg-secondaryRed text-mainRed py-4 px-8 rounded">DELETE</a>
+        <p class="text-white text-sm font-bold">/removermira</p>
+      </div>
+    </main>
   </body>
 </html>

@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node index.mjs",
     "watch": "node --watch index.mjs",
-    "build-css": "tailwindcss build src/styles.css -o public/syles.css"
+    "build-css": "npx tailwindcss -i src/styles.css -o src/output.css --watch"
   },
   "repository": {
     "type": "git",
