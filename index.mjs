@@ -28,17 +28,17 @@ server.use(express.static('src'));
 
   // miraaleatoria
     server.get('/miraaleatoria', (req, res) => {
-      res.send('miraaleatoria');
+      res.sendFile(__dirname + '/front-end/pages/miraaleatoria.html');
     });
 
   // mirapro
     server.get('/mirapro', (req, res) => {
-      res.send('mirapro');
+      res.sendFile(__dirname + '/front-end/pages/mirapro.html');
     });
 
   // mirameme
     server.get('/mirameme', (req, res) => {
-      res.send('mirameme');
+      res.sendFile(__dirname + '/front-end/pages/mirameme.html');
     });
 
 // Starting up the server
