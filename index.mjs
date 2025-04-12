@@ -13,29 +13,28 @@ server.use(express.static('src'));
 // Endpoints
   // Home
     server.get('/', (req, res) => {
-      res.sendFile(__dirname + '/front-end/pages/home.html');
+      res.status(200).sendFile(__dirname + '/front-end/pages/home.html');
     });
 
   // addmira 
     server.get('/addmira', (req, res) => {
       // UP URL to a google forms
-      res.status(301).redirect('https://youtube.com');
-      console.log('User redirected');
+      res.status(301).sendFile(__dirname + '/front-end/pages/addmira.html');
     });
 
   // miraaleatoria
     server.get('/miraaleatoria', (req, res) => {
-      res.sendFile(__dirname + '/front-end/pages/miraaleatoria.html');
+      res.status(200).sendFile(__dirname + '/front-end/pages/miraaleatoria.html');
     });
 
   // mirapro
     server.get('/mirapro', (req, res) => {
-      res.sendFile(__dirname + '/front-end/pages/mirapro.html');
+      res.status(200).sendFile(__dirname + '/front-end/pages/mirapro.html');
     });
 
   // mirameme
     server.get('/mirameme', (req, res) => {
-      res.sendFile(__dirname + '/front-end/pages/mirameme.html');
+      res.status(200).sendFile(__dirname + '/front-end/pages/mirameme.html');
     });
 
 // Starting up the server

@@ -1,5 +1,5 @@
 # Bot Das Mira (API)
-A API do "Bot Das Miras" têm o propósito de servir miras para os usuários, sejam elas aleatórias ou previamente definidas, de fato, não vou deixar os usuários inserirem miras no meu cliente, vou receber por um formulário por enquanto haha!
+A API do "Bot Das Miras" têm o propósito de servir miras para os usuários, sejam elas aleatórias ou previamente definidas, de fato, os usuários poderão enviar miras através de um formulário do google, vou tentar separar por estilo de jogo.
 
 ## Endpoints:
 > /addmira : Link para enviar um formulário de mira\
