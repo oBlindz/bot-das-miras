@@ -1,9 +1,13 @@
+// Importing dependencies
 import express from 'express';
+import dotenv from 'dotenv';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 
+// Setting up dependencies
 const server = express();
-const port = 8081;
+dotenv.config();
+const port = process.env.PORT || 3012;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -39,5 +43,5 @@ server.use(express.static('src'));
 
 // Starting up the server
 server.listen(port, () => {
-  console.log('Server online on port: ', port);
+  console.log('Server online');
 });
