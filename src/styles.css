@@ -9,6 +9,8 @@
   --color-secondaryRed: rgba(254, 127, 127, 0.5);
   --color-mainYellow: #FEE07F;
   --color-secondaryYellow: rgba(254, 224, 127, 0.5);
+  --color-mainPurple: #E6AFFF;
+  --color-secondaryPurple: rgba(230, 175, 255, 0.5);
   --color-white: #F2F2F2;
   --color-black: #020202;
 }

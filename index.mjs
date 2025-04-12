@@ -16,14 +16,11 @@ server.use(express.static('src'));
       res.sendFile(__dirname + '/front-end/pages/home.html');
     });
 
-  // addmira (admin)
+  // addmira 
     server.get('/addmira', (req, res) => {
-      res.send('addmira');
-    });
-
-  // removermira (admin)
-    server.get('/removermira', (req, res) => {
-      res.send('removermira');
+      // UP URL to a google forms
+      res.status(301).redirect('https://youtube.com');
+      console.log('User redirected');
     });
 
   // miraaleatoria
