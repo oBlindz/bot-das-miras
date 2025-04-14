@@ -18,10 +18,19 @@ A API do "Bot Das Miras" têm o propósito de servir miras para os usuários, se
 - Type: Module
 - Estilo: Tailwindcss
 
+## Dependencias: 
+- @tailwindcss/cli: ^4.1.3
+- body-parser: ^2.2.0
+- dotenv: ^16.5.0
+- express: ^5.1.0
+- mongodb: ^6.15.0
+- tailwindcss: ^4.1.3
+
+
 ## Passos de desenvolvimento: 
 [ ✅ ] Criar os endpoints necessários\
 [    ] Criar o formulário de registro para cada jogo\
-[    ] Conectar ao mongo DB\
+[ ✅ ] Conectar ao mongo DB\
 [    ] Salvar / Retornar miras\
 [ ✅ ] Front End\
 [ ✅ ] Postar no linkedIn e GitHub

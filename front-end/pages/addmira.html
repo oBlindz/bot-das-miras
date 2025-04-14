@@ -11,19 +11,19 @@
       <h2 class="text-xl md:text-4xl text-white font-bold">Add Mira</h2>
     </header>
     <main class="px-8 md:px-36 w-full mt-4">
-      <section>
-        <select class="w-full bg-secondaryBlue text-white py-4 px-6 rounded">
-          <option selected>Standoff 2</option>
-          <option>Valorant</option>
-          <option>Critical OPS</option>
-          <option>Counter Strike 2</option>
+      <form method="post" id="form" action="/addmira"> 
+        <select class="text-white bg-secondaryBlue py-4 px-6 w-full rounded" id="jogo_selecionado" name="jogo_selecionado"> 
+          <option selected value="standoff2">Standoff 2</option>
+          <option value="valorant">Valorant</option>
+          <option value="criticalops">Critical OPS</option>
+          <option value="counterstrike2">Counter-Strike 2</option>
         </select>
 
-        <section class="mt-8 flex justify-center gap-4">
-          <a href="#" class="py-4 px-6 bg-secondaryPurple text-mainPurple uppercase rounded">FORM</a>
-          <a href="/" class="py-4 px-6 bg-secondaryRed text-mainRed uppercase rounded">CANCElar</a>
-        </section>
-      </section>
+        <div class="flex gap-4 w-full justify-center mt-4">
+          <button type="submit" class="bg-secondaryGreen text-mainGreen uppercase py-4 px-6 rounded">GET</button>
+          <a href="/" class="bg-secondaryRed text-mainRed uppercase py-4 px-6 rounded">Cancelar</a>
+        </div>
+      </form>
     </main>
   </body>
 </html>
